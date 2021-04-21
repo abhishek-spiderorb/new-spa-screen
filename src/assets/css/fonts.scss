@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "Helvetica Reg";
+	src: url("/static/css/fonts/Helvetica.ttc") format("truetype"),
+}
+
+@font-face {
+    font-family: 'ITCAvantGardeStd-XLt';
+    src: url('/static/css/fonts/ITCAvantGardeStd-XLt.otf'),
+		 url('/static/css/fonts/ITCAvantGardeStd-XLt.ttf') format('truetype'),
+		 url('/static/css/fonts/ITCAvantGardeStd-XLt.svg#ITCAvantGardeStd-XLt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.font-itc
+{
+  font-family: itc-avant-garde-gothic-pro, sans-serif !important;
+}
+
+.font-helvetica
+{
+  font-family: 'Helvetica Reg', sans-serif;
+}
+
+.font-bold
+{
+  font-weight: bold;
+}
+
+body{
+  font-size:14px !important;
+}

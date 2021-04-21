@@ -1,0 +1,101 @@
+.filter-box {
+  background: #fff;
+  position: fixed;
+  left: 103px;
+  top: 75px;
+  width: 25pc;
+  padding: 0pc 2pc 2pc;
+  z-index: 9; }
+  .filter-box .alert-mess {
+    position: relative;
+    top: 2pc;
+    left: 0;
+    width: 100%;
+    max-width: 100%; }
+  .filter-box .head-title-box h4 {
+    font-size: 2pc;
+    font-weight: 600;
+    margin: 2pc auto; }
+  .filter-box .head-title-box ul {
+    list-style: none;
+    font-size: 1pc;
+    font-weight: 500;
+    padding-left: 0; }
+    .filter-box .head-title-box ul li {
+      color: #909090;
+      margin-right: 1pc;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 0.2em;
+      position: relative; }
+      .filter-box .head-title-box ul li.active, .filter-box .head-title-box ul li:hover {
+        color: #0f99ff;
+        cursor: pointer;
+        border-bottom: 2px solid #0f99ff; }
+      .filter-box .head-title-box ul li span {
+        position: absolute;
+        top: -3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 10px;
+        font-size: 0.5em;
+        right: -1.8pc;
+        padding: 1px 7px; }
+  .filter-box #his-mess .iner-alt .alt-cont {
+    padding-right: 0.5pc; }
+
+.confrence-box h5 {
+  font-weight: 600;
+  margin-bottom: 2pc; }
+.confrence-box input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #F8F9FD;
+  padding: 5px 15px;
+  font-weight: 600;
+  margin: 0pc 0 1.5pc; }
+  .confrence-box input[type="text"]::-webkit-input-placeholder {
+    /* Edge */
+    color: #0f99ff; }
+  .confrence-box input[type="text"]:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #0f99ff; }
+  .confrence-box input[type="text"]::placeholder {
+    color: #0f99ff; }
+.confrence-box .ex-tab ul li {
+  margin-bottom: 0.5em; }
+  .confrence-box .ex-tab ul li button {
+    font-weight: 600;
+    font-size: 0.6em;
+    padding: 3px 21px 3px 21px; }
+  .confrence-box .ex-tab ul li.active, .confrence-box .ex-tab ul li:hover {
+    border-bottom: none; }
+.confrence-box .tod-meet-emp {
+  box-shadow: 0px 1px 3px 0px #cccccc6e;
+  padding: 1pc;
+  margin: 1pc 0 2pc;
+  display: flex; }
+  .confrence-box .tod-meet-emp button {
+    margin-right: 0.5pc; }
+  .confrence-box .tod-meet-emp h4 {
+    font-size: 1em;
+    margin: 0.3em;
+    line-height: 1.5em; }
+.confrence-box .alert-mess .iner-alt.op-room {
+  border: 2px solid #0f99ff;
+  background: #0f99ff12; }
+  .confrence-box .alert-mess .iner-alt.op-room p {
+    color: #000; }
+.confrence-box .alert-mess span.arrow-right {
+  width: 25px;
+  height: 35px;
+  background-size: 12px;
+  position: absolute;
+  right: 15px;
+  background: url(../img/right-arrow.svg) no-repeat 16px 10px; }
+
+/*# sourceMappingURL=alert.css.map */
