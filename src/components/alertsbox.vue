@@ -1,5 +1,5 @@
 <template>
-  <div class="filter-box h-100 collapse"  id="menu-filter" >
+  <div class="filter-box h-100 collapse"  id="notify-box" >
         <div class="head-title-box">
           <h4>Alerts</h4>
           <ul class="d-flex">

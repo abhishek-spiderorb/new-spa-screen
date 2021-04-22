@@ -7,7 +7,7 @@
             <div class="collapse navbar-collapse" id="navb">
               <div class="head-r-l-box">
                   <a class="navbar-brand" href="javascript:void(0)"><img src="../assets/img/calender.svg"></a>
-                  <a class="navbar-brand" href="javascript:void(0)" data-toggle="collapse" data-target="#top-right-alert" aria-expanded="false"><img src="../assets/img/bell.svg"><span class="show-count b-yellow">5</span></a>
+                  <a class="navbar-brand" href="javascript:void(0)" data-toggle="collapse" data-target="#notify-box" aria-expanded="false"><img src="../assets/img/bell.svg"><span class="show-count b-yellow">5</span></a>
                   <a class="navbar-brand" href="javascript:void(0)"><img src="../assets/img/chart.svg"><span class="show-count b-yellow"></span></a>
               </div>
               <ul class="navbar-nav">
