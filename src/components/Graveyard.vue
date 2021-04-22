@@ -1,5 +1,10 @@
 <template>
-    <div class="graveyard b-grey collapse">
+<div class="wrapper">
+      <Sidebar/>
+      <div class="main-panel">
+      <Header/>
+      <div class="content" style="">
+        <div class="graveyard b-grey collapse show">
         <div class="ex-line d-flex ali-cen pb-3">
                 <div class="explore-points">
                     <ul>
@@ -95,16 +100,23 @@
             </div>
         </div>
       </div>
+      </div>
+    </div>
+</div>
 </template>
 
 <script>
 import '../assets/css/graveyard.css'
+import Header from './Header.vue'
+import Sidebar from './Sidebar.vue'
 import SearchFilter from './SearchFilter.vue'
 import SimpleCard from './SimpleCard.vue'
 
 export default {
   name: 'Graveyard',
   components: {
+    Header,
+    Sidebar,
     SearchFilter,
     SimpleCard
   }
@@ -114,5 +126,8 @@ export default {
 <style scoped>
 .main-panel > .navbar, .wrapper .sidebar {
     background: #191A32 !important;
+}
+.main-panel {
+    background: #031f33;
 }
 </style>

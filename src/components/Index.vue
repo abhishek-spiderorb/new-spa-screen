@@ -6,12 +6,12 @@
       <div class="content" style="">
       <Explore/>
       <Deadflow/>
-      <Graveyard/>
-      <Alertsbox/>
+      <Notificationsbox/>
     </div>
     </div>
     <Innermodals/>
     <ConfrenceRoom/>
+    <Notifications/>
 </div>
 </template>
 
@@ -20,10 +20,10 @@ import Header from './Header.vue'
 import Sidebar from './Sidebar.vue'
 import Explore from './Explore.vue'
 import Deadflow from './Deadflow.vue'
-import Graveyard from './Graveyard.vue'
-import Alertsbox from './alertsbox.vue'
+import Notificationsbox from './Notificationsbox.vue'
 import Innermodals from './Innermodals.vue'
 import ConfrenceRoom from './ConfrenceRoom.vue'
+import Notifications from './Notifications.vue'
 
 export default {
   name: 'Index',
@@ -32,10 +32,10 @@ export default {
     Sidebar,
     Explore,
     Deadflow,
-    Graveyard,
-    Alertsbox,
+    Notificationsbox,
     Innermodals,
-    ConfrenceRoom
+    ConfrenceRoom,
+    Notifications
   }
 }
 

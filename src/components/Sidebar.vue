@@ -27,7 +27,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:(void);">
+              <a class="nav-link" href="Graveyard">
                 <img src="../assets/img/Hand.png" alt="image" title="tooltip">
                 <button class="sh-tool">Graveyard</button>
               </a>

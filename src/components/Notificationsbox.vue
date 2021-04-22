@@ -1,5 +1,5 @@
 <template>
-  <div class="filter-box h-100 collapse"  id="notify-box" >
+  <div class="filter-box h-100 collapse"  id="notifications-box" >
         <div class="head-title-box">
           <h4>Alerts</h4>
           <ul class="d-flex">
@@ -144,7 +144,7 @@
 import '../assets/css/alert.scss'
 
 export default {
-  name: 'alertsbox'
+  name: 'Notificationsbox'
 }
 </script>
 

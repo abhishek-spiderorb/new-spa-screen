@@ -1,5 +1,5 @@
 <template>
-  <div class="filter-box confrence-box h-100 collapse" id="menu-filter">
+  <div class="filter-box confrence-box h-100 collapse" id="confrence-room">
         <div class="head-title-box">
           <h4>Confrence Room</h4>
           <ul class="d-flex">
